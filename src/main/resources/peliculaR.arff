@@ -1,0 +1,41 @@
+@relation movie_popularity
+
+@attribute genre {Action, Comedy, Drama, Horror, Romance, SciFi, Thriller}
+@attribute director_popularity {low, medium, high}
+@attribute budget {low, medium, high}
+@attribute runtime {short, medium, long}
+@attribute release_season {spring, summer, fall, winter}
+@attribute language {English, Spanish, French, Other}
+@attribute popular {yes, no}
+
+@data
+Action, high, high, long, summer, English, yes
+Comedy, medium, medium, medium, spring, English, no
+Drama, low, low, long, fall, French, no
+Horror, medium, low, short, fall, English, no
+Romance, high, medium, medium, winter, Spanish, yes
+SciFi, high, high, long, summer, English, yes
+Thriller, medium, medium, medium, spring, English, no
+Action, low, low, short, winter, Other, no
+Comedy, medium, low, medium, fall, Spanish, no
+Drama, high, high, long, summer, English, yes
+Horror, low, low, short, winter, English, no
+Romance, medium, medium, medium, spring, French, no
+SciFi, high, high, long, summer, English, yes
+Thriller, high, medium, medium, fall, English, yes
+Action, medium, medium, medium, spring, English, no
+Comedy, low, low, short, winter, Other, no
+Drama, medium, medium, long, summer, English, yes
+Horror, medium, low, short, fall, English, no
+Romance, high, high, medium, summer, Spanish, yes
+SciFi, medium, medium, long, fall, English, no
+Thriller, low, low, medium, spring, English, no
+Action, high, high, long, summer, English, yes
+Comedy, medium, medium, medium, fall, English, no
+Drama, low, low, long, winter, French, no
+Horror, medium, medium, short, spring, English, no
+Romance, high, high, medium, summer, Spanish, yes
+SciFi, high, high, long, summer, English, yes
+Thriller, medium, medium, medium, fall, English, no
+Action, medium, low, short, spring, Other, no
+Comedy, low, low, short, winter, Spanish, no
